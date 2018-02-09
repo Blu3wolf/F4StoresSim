@@ -8,7 +8,7 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <StackPanel>
-            <StackPanel Orientation="Horizontal">
+            <DockPanel>
                 <StackPanel Margin="10,10,10,0">
                     <TextBlock>MMC</TextBlock>
                     <CheckBox Margin="10" />
@@ -25,7 +25,11 @@
                     <TextBlock>WOW</TextBlock>
                     <CheckBox Margin="10" />
                 </StackPanel>
-            </StackPanel>
+                <StackPanel DockPanel.Dock="Right" Margin="10,10,10,0">
+                    <TextBlock TextAlignment="Center">EMER STORES JETT</TextBlock>
+                    <Button Content="E-J" />
+                </StackPanel>
+            </DockPanel>
             <Label Content="Selected Mastermode: System Off" />
             <StackPanel Orientation="Horizontal" >
                 <Button Content="A-A" Margin="10,0,0,0" />
