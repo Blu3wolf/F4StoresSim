@@ -18,6 +18,8 @@ namespace F4StoresSim
 
         static int curMode;
 
+        static List<MFDPage> Pages;
+
         // public properties to be something the View (MFDBezel) can databind to?
     }
 }

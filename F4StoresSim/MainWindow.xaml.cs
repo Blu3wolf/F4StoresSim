@@ -24,5 +24,11 @@ namespace F4StoresSim
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MFDBezel window = new MFDBezel();
+            window.Show();
+        }
     }
 }

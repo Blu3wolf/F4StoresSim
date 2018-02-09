@@ -34,7 +34,7 @@ namespace F4StoresSim
     {
         public Point CoOrds { get; set; }
 
-        public string LabelText;
+        public string LabelText { get; set; }
 
         // possibly useful to specify size of text - height, etc
     }
@@ -60,8 +60,8 @@ namespace F4StoresSim
     {
         public Point CoOrds { get; set; }
 
-        public int Symbol;
+        public int Symbol { get; set; }
 
-        public int Orientation; // unused for SMS page but it would be useful for growth
+        public int Orientation { get; set; } // unused for SMS page but it would be useful for growth
     }
 }
