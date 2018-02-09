@@ -1,0 +1,51 @@
+﻿<Window x:Class="F4StoresSim.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:F4StoresSim"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Margin="10,10,10,0">
+                    <TextBlock>MMC</TextBlock>
+                    <CheckBox Margin="10" />
+                </StackPanel>
+                <StackPanel Margin="10,10,10,0">
+                    <TextBlock>ST STA</TextBlock>
+                    <CheckBox Margin="10" />
+                </StackPanel>
+                <StackPanel Margin="10,10,10,0">
+                    <TextBlock>MFDS</TextBlock>
+                    <CheckBox Margin="10" />
+                </StackPanel>
+                <StackPanel Margin="10,10,10,0">
+                    <TextBlock>WOW</TextBlock>
+                    <CheckBox Margin="10" />
+                </StackPanel>
+            </StackPanel>
+            <Label Content="Selected Mastermode: System Off" />
+            <StackPanel Orientation="Horizontal" >
+                <Button Content="A-A" Margin="10,0,0,0" />
+                <Button Content="A-G" Margin="10,0,0,0" />
+                <RadioButton Content="DGFT" Margin="10,0,0,0"  VerticalAlignment="Center" />
+                <RadioButton Content="Cancel" Margin="10,0,0,0"  VerticalAlignment="Center" />
+                <RadioButton Content="MRM" Margin="10,0,0,0"  VerticalAlignment="Center" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Button Content="NWS/MSL STEP" Margin="10,0,0,0"  />
+                <Button Content="WPN REL" Margin="10,0,0,0"  />
+                <Button Content="Trigger" Margin="10,0,0,0"  />
+                <RadioButton Content="SIMULATE" Margin="10,0,0,0" VerticalAlignment="Center" />
+                <RadioButton Content="OFF" Margin="10,0,0,0"  VerticalAlignment="Center" />
+                <RadioButton Content="MASTER ARM" Margin="10,0,0,0"  VerticalAlignment="Center" />
+            </StackPanel>
+            <StackPanel Margin="0,10,0,0">
+                <Button Content="MFD w/ Bezel" />
+                <Button Content="MFD w/out Bezel" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
